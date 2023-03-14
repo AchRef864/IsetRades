@@ -11,6 +11,7 @@ import { ProjetsComponent } from './projets/projets.component';
 import { EvennementComponent } from './evennement/evennement.component';
 import { ContactComponent } from './contact/contact.component';
 import { BureauComponent } from './bureau/bureau.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BureauComponent } from './bureau/bureau.component';
     ProjetsComponent,
     EvennementComponent,
     ContactComponent,
-    BureauComponent
+    BureauComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
